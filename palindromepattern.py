@@ -1,3 +1,6 @@
+# Question: Given a string, find all possible palindromic partitions of given string.
+
+# My Solution: 
 word = "madam"
 
 #Loop Version
