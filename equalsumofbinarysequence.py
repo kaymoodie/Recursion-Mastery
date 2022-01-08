@@ -83,9 +83,7 @@ def sum_of_half(binary_number, length):
     global SUM_SAME
 
     sum1 =  sums(binary_number[0:int(length/2)], 0,0)
-    #print(binary_number[0:int(length/2)])
     sum2 =  sums(binary_number[int(length/2):length],0,0)
-    #print(binary_number[int(length/2):length-1])
     if sum1 == sum2:
         SUM_SAME.append(binary_number)
     
